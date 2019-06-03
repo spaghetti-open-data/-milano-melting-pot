@@ -7,6 +7,7 @@ def assign_country(country):
     returns a tuple with the region and continent of country
     '''
     # elenco nazionalità, attribuite alla regione
+    
     eu15 = ['Francia', 'Regno Unito', 'Spagna', 'Grecia', 'Portogallo', 'Germania', 'Belgio', 'Danimarca', 'Irlanda', 
         'Svezia', 'Austria', 'Paesi Bassi', 'Finlandia', 'Lussemburgo', 'Andorra', 'Monaco', 'Liechtenstein']
     eun13 = ['Bulgaria', 'Croazia', 'Romania', 'Ungheria', 'Estonia', 'Lituania', 'Polonia', 'Slovenia', 'Ceca, Rep.', 
@@ -34,7 +35,7 @@ def assign_country(country):
         'Venezuela', 'Brasile', 'Dominica', 'Cile', 'Haiti', 'Bolivia', 'Uruguay', 'Costa Rica', 'Giamaica', 
        'Guatemala', 'Panama', 'Trinidad e Tobago', 'Nicaragua', 'Antigua e Barbuda', 'Suriname', 'Honduras', 
        'Bahamas', 'Barbados', 'Belize', 'Saint Kitts e Nevis', 'Paraguay']
-       ocean = ['Australia', 'Nuova Zelanda']
+    ocean = ['Australia', 'Nuova Zelanda']
     other = ['Altre nazioni o n.d.', 'Apolide']
 
 
@@ -68,7 +69,6 @@ def assign_country(country):
         location = ('ita', 'italia')
     return location
     
-    
 def alunn_primarie(age):
     '''
     (int) => bool
@@ -80,5 +80,6 @@ def alunn_primarie(age):
     return primarie
         
     
-if name == '__main__':
+if __name__ == '__main__':
+
     print('Hello world')
