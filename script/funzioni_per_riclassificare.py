@@ -1,4 +1,4 @@
-### funzioni python per riclassificare i record. Servono 
+### funzioni python per riclassificare i record. Servono per produrre i JSON finali
 
 
 
@@ -67,6 +67,18 @@ def assign_country(country):
     else: 
         location = ('ita', 'italia')
     return location
+    
+    
+def alunn_primarie(age):
+    '''
+    (int) => bool
+    prende valore 1 se il residente ha l'età per frequentare la scuola primaria
+    '''
+    primarie = False
+    if age < 11 and age > 5: # fonte: Wikipedia. presa la forbice larga
+        primarie = True  
+    return primarie
+        
     
 if name == '__main__':
     print('Hello world')
