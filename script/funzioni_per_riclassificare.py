@@ -34,7 +34,7 @@ def assign_country(country):
         'Venezuela', 'Brasile', 'Dominica', 'Cile', 'Haiti', 'Bolivia', 'Uruguay', 'Costa Rica', 'Giamaica', 
        'Guatemala', 'Panama', 'Trinidad e Tobago', 'Nicaragua', 'Antigua e Barbuda', 'Suriname', 'Honduras', 
        'Bahamas', 'Barbados', 'Belize', 'Saint Kitts e Nevis', 'Paraguay']
-       ocean = ['Australia', 'Nuova Zelanda']
+    ocean = ['Australia', 'Nuova Zelanda']
     other = ['Altre nazioni o n.d.', 'Apolide']
 
 
@@ -68,5 +68,5 @@ def assign_country(country):
         location = ('ita', 'italia')
     return location
     
-if name == '__main__':
+if __name__ == '__main__':
     print('Hello world')
